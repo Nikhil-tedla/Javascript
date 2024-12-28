@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var arr=[1,2,3,4];
+        function add(){
+            let s=0;
+            function helper(){
+                s+=1;
+                return s;
+            }
+            return helper;
+            
+        }
+        var t=add();
+        var t2=add();
+
+
+        document.write(`<h1>${t()}</h1>`);
+        document.write(`<h1>${t()}</h1>`);
+        document.write(`<h1>${t()}</h1>`);
+        document.write(`<h1>${t2()}</h1>`);
+
+        // add(arr);
+        
+        
+        
+    </script>
+    
+</body>
+</html>
