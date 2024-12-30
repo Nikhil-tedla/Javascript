@@ -1,0 +1,19 @@
+<!-- 12.  Write a JavaScript program to print incremental value every time when button is clicked  -->
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <h2 id="abc"></h2>
+    <button onclick="helper()">Increment</button>
+    <script>
+        let c=0;
+        function helper(){
+            c+=1;
+            document.getElementById("abc").innerHTML=c;
+        }
+    </script>
+ </body>
+ </html>

@@ -1,0 +1,19 @@
+<!-- timer -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3 id="abc"></h3>
+    <script>
+        function helper(){
+        let d=new Date();
+        document.getElementById("abc").innerHTML=d.toLocaleTimeString();
+        }
+        setInterval(helper, 1000);
+    </script>
+</body>
+</html>
+

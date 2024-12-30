@@ -1,0 +1,26 @@
+<!-- 24. write a javascript program to print following pattern
+
+20 18 16 14
+12 10 8
+6 4
+2 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let n=4;
+        let t=n*(n+1);
+        for(let i=n;i>=0;i--){
+            for(let j=i;j>0;j--){
+                document.write(t+" ");
+                t-=2;
+            }
+            document.write(`<br>`);
+        }
+    </script>
+</body>
+</html>
