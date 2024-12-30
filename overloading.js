@@ -11,3 +11,5 @@ class demo{
 }
 let a=new demo();
 a.add(1,2,4,5);
+a.add(2,3);
+a.add(1,4,2,34,6,7);
